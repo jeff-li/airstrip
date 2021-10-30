@@ -1,0 +1,14 @@
+{
+  "name": "react-runway",
+  "version": "1.0.0",
+  "description": "a runway for your react app to take off",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Jeff Li",
+  "license": "MIT"
+}

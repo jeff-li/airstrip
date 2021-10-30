@@ -1,0 +1,42 @@
+{
+  "name": "airstrip",
+  "version": "0.0.1",
+  "description": "React/Express generator. A runway for your next project to takeoff.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc && shx rm -rf dist/runways && shx cp -r src/runways dist",
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeff-li/airstrip.git"
+  },
+  "keywords": [
+    "react",
+    "express",
+    "generator"
+  ],
+  "author": "Jeff Li",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeff-li/airstrip/issues"
+  },
+  "homepage": "https://github.com/jeff-li/airstrip#readme",
+  "devDependencies": {
+    "@types/inquirer": "^8.1.3",
+    "@types/node": "^16.11.1",
+    "nodemon": "^2.0.14",
+    "shx": "^0.3.3",
+    "ts-node": "^10.3.0",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "inquirer": "^8.2.0"
+  },
+  "bin": {
+    "airstrip": "./dist/index.js"
+ }
+}
